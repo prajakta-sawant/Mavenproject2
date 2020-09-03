@@ -17,11 +17,11 @@ import cucumber.api.junit.Cucumber;
 		glue="com.cg.project.stepdef",
 		/*plugin="html:reports"*/
 
-		/*plugin="json:reports/GitHubLogin.json"*/
+		plugin="json:reports/GitHubLogin.json"
 
 		/*plugin="junit:reports/GitHubLogin.xml"*/
 		
-			plugin=	"com.cucumber.listener.ExtentCucumberFormatter:reports/GitHubLogin.html"
+	//		plugin=	"com.cucumber.listener.ExtentCucumberFormatter:reports/GitHubLogin.html"
 		)
 public class TestRunner {
 
